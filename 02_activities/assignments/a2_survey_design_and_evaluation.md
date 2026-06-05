@@ -40,25 +40,28 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of the study is twofold: 1. understand why there is such a high turnover in emplyees and 2. specifically why does the high turnover happen in entry-and lower-level positions. When answered by the survey, the goal is to take this a step further and change actions to reduce the high turnover.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: entry- and lower-level employees of the tech company 
+Sampling frame: all employees at the tech company
+sampling units: sampled subset of employees (young entry- or lower level employees spceifically)
+observation units: one employee (a young entry- or lower level employee spcifically)
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
+1. What was the reason why you joined the company and your expectation going in to the job.
+2. Where those expectations met?
+3. Do you feel satisfied in your job? If not, what are the specific challenges.
+4. Are you considering leaving your position due to unmet expectations and satisfaction?
+5. How long have you been with the company? Do you have a minimum timeframe you would like to stay at the company?
 6. write your question here... (optional)
 7. write your question here... (optional)
 8. write your question here... (optional)
@@ -71,7 +74,24 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+ 1. Sample type: online reporting survey across canada
+2. Sample size: 16 149 usable repondents (out of innitially 20 000 samples)
+3. Target population: all people 15 years of age and older in Canada excluding residents of Yukon, northwest territories, nunavut and full-time residents of institutions.
+4. Sampling frame: GSS frame, which integrates data from sources of telephone numbers available to Statistics CAnada and the Adress Register
+5. Survey mode(s): self complete questionaeres and computer assisted telephone interviews
+6. Timeline
+7. Response rate: 41.9%
+8. Weights: 500 bootstraped weights derived from the following weighting considreations:
+- adjusted to represent all persons in the target population including those not covered by the survey frame. The weights are calculated by  number of records in one stratum/total number of records in stratum from the survey frame (stratum being one state). 
+- accounting for probability with mutliple telephone numbrs per housholds, removal of out of scope records, three stage non-response adjustement (non-responding telephone numbers)
+- person weight: household weight x three-stage non-response factor x # eligible household members
+- province, age and sex adjustement
+9. Data processing: electronic data was processed according to standard processing steps including cosistency edits, family edits and imputation.
+10. Cleaning, imputation, etc: missing or invalid data was filtered, rounding
+11. Sources of error: groupings of telephone numbers, non-response on survey results (adressed by a score function), sampling errors
+12. Limitations, known biases, etc: households without telephone contact, exclusion of some territories
+13. Link to documentation and any additional sources used: https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat5/c33_2018.zip
+
 ```
 
 ## Rubric
